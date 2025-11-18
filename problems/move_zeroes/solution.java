@@ -10,12 +10,8 @@ class Solution {
                 nums[nonZeroPointer] = nums[i];
                 nums[i] = temp;
                 nonZeroPointer +=1;
-                // System.out.println(Arrays.toString(nums));
-                // System.out.println(i);
-                // System.out.println("/////////////");
             }
         }
-
 
     }
 }
